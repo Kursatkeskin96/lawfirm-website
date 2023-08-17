@@ -65,7 +65,7 @@ export default function CalismaCarousel() {
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-1  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm uppercase">Arabuluculuk</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
-            </div>
+            </div> 
         </Link>
     </SwiperSlide>
     <SwiperSlide>
