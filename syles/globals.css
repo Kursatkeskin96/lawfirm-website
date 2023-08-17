@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-background {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
+    background-size: 100% 100%;
+    height: 550px;
+}
+
+.iletisim-bg{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.jpg);
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+
+.calisma-alan-bg {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.jpg);
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.about-bg{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.jpg);
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.calisma-bg{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.jpg);
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.bg-1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/arabuluculuk.jpg);
+    background-size: 100% 100%;
+}
+
+.bg-2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sozlesmeler-hukuk.jpg);
+    background-size: 100% 100%;
+}
+
+.bg-3 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/dava-takip.jpg);
+  background-size: 100% 100%;
+}
+
+
+.bg-4 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/icra.jpg);
+  background-size: 100% 100%;
+}
+
+
+.bg-5 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/is-hukuk.jpg);
+  background-size: 100% 100%;
+}
+
+.bg-6 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/saglik-hukuk.jpg);
+  background-size: 100% 100%;
+}
+
+.bg-7 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sigorta-hukuk.jpg);
+  background-size: 100% 100%;
+}
+
+.bg-8 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/ticaret-ve-sirket.jpg);
+  background-size: 100% 100%;
+}
+
+.bg-9 {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/tuketici.jpg);
+  background-size: 100% 100%;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.logo{
+    max-width: 40px;
+}
+
+.background-h, .background-p{
+    text-shadow: 1px 1px 1px black;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardImage {
+    flex-shrink: 0;
+    position: relative;
+    height: 96px;
+    width: 96px;
+  }
+  
+  .card img {
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .cardBody {
+    margin-left: 16px;
+  }
+  
+  .cardBody p {
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .cardBody h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 18px;
+  }
+
+@media (max-width: 576px) {
+    .home-background {
+        background-image:url(../assets/images/homebg.png);
+        background-size: 100% 100%;
+        height: 400px;
+    }
+  }
