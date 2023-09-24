@@ -11,10 +11,10 @@ export default function Hakkimizda() {
     <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Hakkimizda</p>
   </div>
   </div>
-  <div className='text-black h-screen lg:mb-0 mb-10'>
+  <div className='text-black h-fit lg:mb-0 mb-10'>
       <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Hakkimizda</h1>
        <div className='flex items-center justify-center'>
-        <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-[400px] w-[90%]'>
+        <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit mb-20 w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
           <Image src={Ozge} alt="" width={300} />
          </div>
