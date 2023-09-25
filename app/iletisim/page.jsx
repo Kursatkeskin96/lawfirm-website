@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Ozge from '../../assets/images/ozge2.png'
 import Contact from '@/components/Contact';
 
 export default function Iletisim() {

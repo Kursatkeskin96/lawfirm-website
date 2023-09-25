@@ -5,7 +5,7 @@ import Ozge2 from '../assets/images/ozge2.png'
 export default function Ozge() {
   return (
     <div className='text-black h-[500px]'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Av. Arb. Hkm. Ozge Ozdemir</h1>
+      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Av. Arb. Ozge Ozdemir</h1>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-[400px] w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
