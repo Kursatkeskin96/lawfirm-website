@@ -12,14 +12,14 @@ export default function page() {
     <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Dava Takibi ve Uyusmazlik Cozumu</p>
   </div>
   </div>
-  <div className='text-black h-full'>
+  <div className='text-black h-fit'>
       <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Dava Takip ve Uyusmazlik Cozumu</h1>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
-         <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
+         <div className='max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
           <Image src={img} alt="" width={300} />
          </div>
-            <div className='mt-10 md:mt-0 lg:mt-0 h-full lg:w-3/5 w-full lg:text-left text-center flex items-center justify-center'>
+            <div className='mt-10 md:mt-0 lg:mt-0 h-fit lg:w-3/5 w-full lg:text-left text-center flex items-center justify-center'>
               <p>Hukuk ofisimizde müvekkillerimizin yaşadığı hukuki
                 uyuşmazlıkların hızlı, etkin ve faydalı olarak sonuçlandırılması amaçlanmaktadır. Bu gaye
                 doğrultusunda her bir hukuki uyuşmazlık özel ve ayrıcalıklı olarak değerlendirilmektedir.

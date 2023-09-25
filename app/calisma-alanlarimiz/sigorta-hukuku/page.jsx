@@ -15,7 +15,7 @@ export default function page() {
   <div className='text-black h-full'>
       <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Sigorta Hukuku</h1>
        <div className='flex items-center justify-center'>
-        <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-[400px] w-[90%]'>
+        <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
           <Image src={img} alt="" width={300} />
          </div>

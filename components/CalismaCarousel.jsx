@@ -17,7 +17,7 @@ import Link from 'next/link';
 export default function CalismaCarousel() {
   return (
     <div className='pb-20'> 
-     <h1 className='mb-10 text-2xl border-b border-[#E5BA73] text-center lg:mt-[10px] md:mt-[300px] mt-[450px]'>Calisma Alanlarimiz</h1>
+     <h1 className='mb-10 text-2xl border-b border-[#E5BA73] text-center lg:mt-[10px] md:mt-[300px] mt-20'>Calisma Alanlarimiz</h1>
     <Swiper style={{"--swiper-pagination-color": "#FFFFFF",
   "--swiper-pagination-bullet-inactive-color": "#999999",
   "--swiper-pagination-bullet-inactive-opacity": "1",
