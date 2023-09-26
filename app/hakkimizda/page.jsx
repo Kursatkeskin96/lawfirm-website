@@ -7,12 +7,12 @@ export default function Hakkimizda() {
     <>
   <div className='about-bg flex flex-col items-center'>
     <div className="m-auto flex flex-col items-center">
-    <h1 className="background-h lg:text-3xl text-xl w-fit mx-auto px-4 bg-gray-900 text-white">Ozdemir Hukuk Burosu</h1>
-    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Hakkimizda</p>
+    <h1 className="background-h lg:text-3xl text-xl w-fit mx-auto px-4 bg-gray-900 text-white">Özdemir Hukuk Bürosu</h1>
+    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Hakkımızda</p>
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Hakkimizda</h1>
+      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Hakkımızda</h1>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit mb-20 w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>

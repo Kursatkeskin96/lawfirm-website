@@ -23,16 +23,16 @@ const handleNav = () => {
       <div>
         <ul className='hidden md:flex'>
           <Link href='/'>
-          <li className='ml-10 text-sm uppercase border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Ana Sayfa</li>
+          <li className='ml-10 text-md  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Ana Sayfa</li>
           </Link>
           <Link href='/hakkimizda'>
-          <li className='ml-10 text-sm uppercase border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Hakkimizda</li>
+          <li className='ml-10 text-md border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Hakkımızda</li>
           </Link>
           <Link href='/calisma-alanlarimiz'>
-          <li className='ml-10 text-sm uppercase border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Calisma Alanlarimiz</li>
+          <li className='ml-10 text-md border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Çalışma Alanlarımız</li>
           </Link>
           <Link href='/iletisim'>
-          <li className='ml-10 text-sm uppercase border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Iletisim</li>
+          <li className='ml-10 text-md border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>İletişim</li>
           </Link>
         </ul>
         <div onClick={handleNav} className='md:hidden cursor-pointer'>
@@ -59,18 +59,18 @@ const handleNav = () => {
           </div>
         </div>
         <div className='flex flex-col'>
-          <ul className='uppercase'>
+          <ul>
             <Link href='/'>
               <li className='py-4 text-sm'>Ana Sayfa</li>
             </Link>
             <Link href='/hakkimizda'>
-              <li className='py-4 text-sm'>Hakkimizda</li>
+              <li className='py-4 text-sm'>Hakkımızda</li>
             </Link>
             <Link href='/calisma-alanlarimiz'>
-              <li className='py-4 text-sm'>Calisma Alanlarimiz</li>
+              <li className='py-4 text-sm'>Çalışma Alanlarımız</li>
             </Link>
             <Link href='/iletisim'>
-              <li className='py-4 text-sm'>Iletisimz</li>
+              <li className='py-4 text-sm'>İletişim</li>
             </Link>
           </ul>
         </div>

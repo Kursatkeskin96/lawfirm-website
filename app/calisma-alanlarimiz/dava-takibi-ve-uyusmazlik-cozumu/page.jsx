@@ -8,12 +8,12 @@ export default function page() {
     <>
     <div className='calisma-alan-bg flex flex-col items-center'>
     <div className="m-auto flex flex-col items-center">
-    <h1 className="background-h lg:text-3xl text-lg w-fit mx-auto px-4 bg-gray-900 text-white">Ozdemir Hukuk Burosu</h1>
-    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Dava Takibi ve Uyusmazlik Cozumu</p>
+    <h1 className="background-h lg:text-3xl text-lg w-fit mx-auto px-4 bg-gray-900 text-white">Özdemir Hukuk Bürosu</h1>
+    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Dava Takip ve Uyuşmazlık Çözümü</p>
   </div>
   </div>
   <div className='text-black h-fit'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Dava Takip ve Uyusmazlik Cozumu</h1>
+      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Dava Takip ve Uyuşmazlık Çözümü</h1>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
