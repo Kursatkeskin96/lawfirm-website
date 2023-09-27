@@ -45,7 +45,7 @@ export default function Contact() {
             <span className='ml-4'>Sosyal Medya</span>
           </div>
           <div className='flex text-xl'>
-          <Link href='https://www.linkedin.com/in/kursatkeskinn/' target='_blank'>
+          <Link href='https://www.linkedin.com/in/%C3%B6zge-%C3%B6zdemir-61169116b/' target='_blank'>
             <div className='rounded-full border-b border-[#E5BA73] shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  ease-in duration-300'>
                 <FaLinkedinIn />
             </div>

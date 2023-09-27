@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Ozge from '../../assets/images/ozge2.png'
+import Ozge2 from '../../assets/images/ozge.png'
 
 export default function Hakkimizda() {
   return (
@@ -15,8 +15,8 @@ export default function Hakkimizda() {
       <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Hakkımızda</h1>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit mb-20 w-[90%]'>
-         <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
-          <Image src={Ozge} alt="" width={300} />
+         <div className='h-[400px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>
+          <Image className='rounded-md' src={Ozge2} alt="" width={300} />
          </div>
             <div className='mt-10 md:mt-0 lg:mt-0 h-full lg:w-3/5 w-full lg:text-left text-center flex items-center justify-center'>
               <p>Özdemir Hukuk Ofisi 2023 yılında İstanbul merkezli olarak kurulmuştur. Hukuk ofisimizde başta
