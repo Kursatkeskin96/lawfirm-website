@@ -54,7 +54,7 @@ export default function CalismaCarousel() {
       <SwiperSlide>
         <Link href='/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-3 hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Dava Takibi ve Uyuşmazlık Çözümü</h1>
+                <h1 className="text-white text-lg shadow-sm">Dava Takibi ve Uyuşmazlık Çözümü</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -63,7 +63,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/arabuluculuk'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-1  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Arabuluculuk</h1>
+                <h1 className="text-white text-lg shadow-sm ">Arabuluculuk</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div> 
         </Link>
@@ -71,7 +71,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/sigorta-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-7  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Sigorta Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">Sigorta Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -79,7 +79,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/sozlesmeler-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-2  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Sözleşmeler Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">Sözleşmeler Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -87,7 +87,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/tuketici-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-9  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Tüketici Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">Tüketici Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -95,7 +95,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/saglik-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-6  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">Sağlık Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">Sağlık Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -103,7 +103,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/is-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-5  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">İş Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">İş Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
@@ -111,7 +111,7 @@ export default function CalismaCarousel() {
     <SwiperSlide>
         <Link href='/calisma-alanlarimiz/icra-ve-iflas-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-4 hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm uppercase">İcra ve İflas Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">İcra ve İflas Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
