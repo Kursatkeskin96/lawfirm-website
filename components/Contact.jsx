@@ -1,19 +1,27 @@
 'use client';
 import Link from 'next/link'
-import React, {useState} from 'react'
+import React, {useRef} from 'react'
 import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import {GoLocation} from 'react-icons/go'
 import {GrContact} from 'react-icons/gr'
-import Modal from '../components/Modal'
-
+import emailjs from '@emailjs/browser';
+import 'dotenv/config'
 
 export default function Contact() {
-  const [showModal, setShowModal]= useState(false)
 
-  const toggleModal = () => {
-    setShowModal(!showModal)
-  }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cllyshp', 'template_3jkagod', form.current, 'tGF9oprXEkoV0KmnQ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div className='py-8 pb-20 w-full lg:h[700px] bg-[#222831]' id='contact'>
@@ -26,7 +34,7 @@ export default function Contact() {
             <AiOutlineMail />
             <span className='ml-4'>E-Mail</span>
           </div>
-          <p className='text-[#E5BA73]'>av.ozgeozdemir@hotmail.com</p>
+          <p className='text-[#E5BA73]'>info@hukukozdemir.com</p>
           
           <div className='inline-flex items-center text-center text-xl mt-6 mb-2'>
             <AiOutlinePhone />
@@ -45,7 +53,7 @@ export default function Contact() {
             <span className='ml-4'>Sosyal Medya</span>
           </div>
           <div className='flex text-xl'>
-          <Link href='https://www.linkedin.com/in/%C3%B6zge-%C3%B6zdemir-61169116b/' target='_blank'>
+          <Link href='https://www.linkedin.com/company/ozdemir-hukuk-ve-danismanlik/' target='_blank'>
             <div className='rounded-full border-b border-[#E5BA73] shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  ease-in duration-300'>
                 <FaLinkedinIn />
             </div>
@@ -53,10 +61,9 @@ export default function Contact() {
             
           </div>
         </div>
-        { showModal && <Modal onclick={toggleModal} />}
   
         <div className='mt-10 bg-white p-8'>
-  <form>
+  <form ref={form} onSubmit={sendEmail}>
     <div className='mb-6'>
       <label className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
       İsim Soyisim

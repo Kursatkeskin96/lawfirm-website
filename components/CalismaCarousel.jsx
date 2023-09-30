@@ -32,8 +32,6 @@ export default function CalismaCarousel() {
     autoplay={{
         delay: 2500,
       }}
-    onSlideChange={() => console.log('slide change')}
-    onSwiper={(swiper) => console.log(swiper)}
     breakpoints={{
         // when window width is >= 640px
         640: {

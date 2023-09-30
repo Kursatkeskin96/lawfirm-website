@@ -69,7 +69,7 @@ const handleNav = () => {
               <li className='py-4 text-sm'>Hakkımızda</li>
             </Link>
             <Link href='/sigorta-ve-reasurans-hukuku' onClick={() => setNav(false)}> 
-          <li className='py-4 text-sm'>Sigorta ve Reasürans Hukuku</li>
+          <li className='py-4 text-sm'>Sigorta ve Reasürans</li>
           </Link>
             <Link href='/calisma-alanlarimiz'  onClick={() => setNav(false)}>
               <li className='py-4 text-sm'>Çalışma Alanlarımız</li>
