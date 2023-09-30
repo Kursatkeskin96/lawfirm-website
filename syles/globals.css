@@ -5,32 +5,38 @@
 .home-background {
     background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
     background-size: 100% 100%;
-    height: 550px;
+    height: 600px;
 }
 
 .iletisim-bg{
   background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.jpg);
   background-size: 100% 100%;
-  height: 550px;
+  height: 600px;
 }
 
 
 .calisma-alan-bg {
   background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.jpg);
   background-size: 100% 100%;
-  height: 550px;
+  height: 600px;
 }
 
 .about-bg{
   background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.jpg);
   background-size: 100% 100%;
-  height: 550px;
+  height: 600px;
+}
+
+.reasurans-bg {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/reasurans.jpg);
+  background-size: 100% 100%;
+  height: 600px;
 }
 
 .calisma-bg{
   background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.jpg);
   background-size: 100% 100%;
-  height: 550px;
+  height: 600px;
 }
 
 .bg-1 {
@@ -139,4 +145,40 @@
         background-size: 100% 100%;
         height: 400px;
     }
+    .home-background {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
+      background-size: 100% 100%;
+      height: 400px;
+  }
+  
+  .iletisim-bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+  }
+  
+  
+  .calisma-alan-bg {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+  }
+  
+  .about-bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+  }
+  
+  .reasurans-bg {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/reasurans.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+  }
+  
+  .calisma-bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+  }
   }

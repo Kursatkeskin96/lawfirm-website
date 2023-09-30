@@ -2,6 +2,7 @@
 import Ozge from '@/components/Ozge'
 import Contact from '@/components/Contact';
 import CalismaCarousel from '@/components/CalismaCarousel';
+import Sigorta from '@/components/Sigorta';
 
 
 export default async function Home() {
@@ -16,6 +17,7 @@ export default async function Home() {
   </div>
   </div>
   <Ozge />
+  <Sigorta />
   <CalismaCarousel />
   <Contact />
   </div>

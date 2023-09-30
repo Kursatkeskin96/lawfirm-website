@@ -32,7 +32,7 @@ export default function Ozge() {
            </div>
            
        </div>
-            <div className='mt-6 w-[90%] mx-auto'>
+            <div className='mt-12 w-[90%] mx-auto'>
                 <p>
               Fakülte yıllarından itibaren sigorta hukukuna karşı duyduğu yoğun merak ve ilgi sayesinde bu alanda
               gelişim göstermeyi hedeflemiştir. Bu amaç doğrultusunda sigorta hukukuna dair yayınları, yargı

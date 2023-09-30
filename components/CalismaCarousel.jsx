@@ -69,9 +69,9 @@ export default function CalismaCarousel() {
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/sigorta-hukuku'>
+        <Link href='/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku'>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-7  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Sigorta Hukuku</h1>
+                <h1 className="text-white text-lg shadow-sm ">Sigorta ve Reasürans Hukuku</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
             </div>
         </Link>
