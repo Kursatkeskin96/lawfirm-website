@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
 .home-background {
     background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
     background-size: 100% 100%;

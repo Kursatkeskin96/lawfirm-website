@@ -65,16 +65,16 @@ const handleNav = () => {
             <Link href='/' onClick={() => setNav(false)}>
               <li className='py-4 text-sm'>Ana Sayfa</li>
             </Link>
-            <Link href='/hakkimizda'  onClick={() => setNav(false)}>
+            <Link href='/hakkimizda' onClick={() => setNav(false)}>
               <li className='py-4 text-sm'>Hakkımızda</li>
             </Link>
             <Link href='/sigorta-ve-reasurans-hukuku' onClick={() => setNav(false)}> 
           <li className='py-4 text-sm'>Sigorta ve Reasürans</li>
           </Link>
-            <Link href='/calisma-alanlarimiz'  onClick={() => setNav(false)}>
+            <Link href='/calisma-alanlarimiz' onClick={() => setNav(false)}>
               <li className='py-4 text-sm'>Çalışma Alanlarımız</li>
             </Link>
-            <Link href='/iletisim'>
+            <Link href='/iletisim' onClick={() => setNav(false)}>
               <li className='py-4 text-sm'>İletişim</li>
             </Link>
           </ul>
