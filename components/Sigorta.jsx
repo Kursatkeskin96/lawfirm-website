@@ -1,5 +1,5 @@
 import React from 'react'
-import sigorta from '@/assets/images/sigorta.jpg'
+import sigorta from '@/assets/images/sigorta.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 

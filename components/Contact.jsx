@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React, {useRef} from 'react'
 import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaLinkedinIn, FaInstagram} from 'react-icons/fa'
 import {GoLocation} from 'react-icons/go'
 import {GrContact} from 'react-icons/gr'
 import emailjs from '@emailjs/browser';
@@ -58,6 +58,11 @@ export default function Contact() {
                 <FaLinkedinIn />
             </div>
             </Link>
+            <Link href='https://www.instagram.com/hukukozdemir' target='_blank'>
+            <div className='rounded-full ml-2 border-b border-[#E5BA73] shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-110  ease-in duration-300'>
+                <FaInstagram />
+            </div>
+            </Link>
             
           </div>
         </div>
@@ -65,7 +70,7 @@ export default function Contact() {
         <div className='mt-10 bg-white p-8'>
   <form ref={form} onSubmit={sendEmail}>
     <div className='mb-6'>
-      <label className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
+      <label htmlFor='user_name' className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
       İsim Soyisim
       </label>  
       <input 
@@ -73,10 +78,11 @@ export default function Contact() {
         type='text' 
         required 
         name='user_name'
+        id='user_name'
       />
     </div>
     <div className='mb-6'>
-      <label className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
+      <label htmlFor='user_email' className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
         Email
       </label>
       <input 
@@ -84,10 +90,11 @@ export default function Contact() {
         type='email' 
         required 
         name='user_email'
+        id='user_email'
       />
     </div>
     <div className='mb-6'>
-      <label className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
+      <label htmlFor='message' className='block text-lg tracking-wide text-gray-700 font-semibold mb-2'>
         Mesaj
       </label>
       <textarea 
@@ -95,11 +102,12 @@ export default function Contact() {
         rows='6'
         required 
         name='message'
+        id='message'
       ></textarea>
     </div>
     <div>
     <input required type="checkbox" id="check" name="check" value="Yes"></input>
-    <Link target="_blank" href='/kisisel-veriler'><label className='ml-2 underline text-blue-400 cursor-pointer'>Kişisel verileri okudum, onaylıyorum.</label></Link>
+    <Link target="_blank" href='/kisisel-veriler'><label className='ml-2 underline text-blue-400 cursor-pointer' htmlFor='check'>Kişisel verileri okudum, onaylıyorum.</label></Link>
     </div>
     <div className='flex justify-end'>
       <button 

@@ -1,90 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 
+
 .home-background {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/homebg.webp);
     background-size: 100% 100%;
     height: 600px;
 }
 
 .iletisim-bg{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/contact.webp);
   background-size: 100% 100%;
   height: 600px;
 }
 
 
 .calisma-alan-bg {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/calisma-alan.webp);
   background-size: 100% 100%;
   height: 600px;
 }
 
 .about-bg{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/hakkimizda.webp);
   background-size: 100% 100%;
   height: 600px;
 }
 
 .reasurans-bg {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/reasurans.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/reasurans.webp);
   background-size: 100% 100%;
   height: 600px;
 }
 
 .calisma-bg{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.8)) , url(../assets/images/calisma.webp);
   background-size: 100% 100%;
   height: 600px;
 }
 
 .bg-1 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/arabuluculuk.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/arabuluculuk.webp);
     background-size: 100% 100%;
 }
 
 .bg-2 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sozlesmeler-hukuk.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sozlesmeler-hukuk.webp);
     background-size: 100% 100%;
 }
 
 .bg-3 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/dava-takip.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/dava-takip.webp);
   background-size: 100% 100%;
 }
 
 
 .bg-4 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/icra.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/icra.webp);
   background-size: 100% 100%;
 }
 
 
 .bg-5 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/is-hukuk.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/is-hukuk.webp);
   background-size: 100% 100%;
 }
 
 .bg-6 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/saglik-hukuk.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/saglik-hukuk.webp);
   background-size: 100% 100%;
 }
 
 .bg-7 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sigorta-hukuk.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/sigorta-hukuk.webp);
   background-size: 100% 100%;
 }
 
 .bg-8 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/ticaret-ve-sirket.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/ticaret-ve-sirket.webp);
   background-size: 100% 100%;
 }
 
 .bg-9 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/tuketici.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/tuketici.webp);
   background-size: 100% 100%;
 }
 
@@ -143,43 +143,43 @@
 
 @media (max-width: 576px) {
     .home-background {
-        background-image:url(../assets/images/homebg.png);
+        background-image:url(../assets/images/homebg.webp);
         background-size: 100% 100%;
         height: 400px;
     }
     .home-background {
-      background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.png);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/homebg.webp);
       background-size: 100% 100%;
       height: 400px;
   }
   
   .iletisim-bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/contact.webp);
     background-size: 100% 100%;
     height: 400px;
   }
   
   
   .calisma-alan-bg {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma-alan.webp);
     background-size: 100% 100%;
     height: 400px;
   }
   
   .about-bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/hakkimizda.webp);
     background-size: 100% 100%;
     height: 400px;
   }
   
   .reasurans-bg {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/reasurans.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/reasurans.webp);
     background-size: 100% 100%;
     height: 400px;
   }
   
   .calisma-bg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.5)) , url(../assets/images/calisma.webp);
     background-size: 100% 100%;
     height: 400px;
   }

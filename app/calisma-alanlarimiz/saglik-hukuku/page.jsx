@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../../assets/images/saglik-hukuk.jpg'
+import img from '../../../assets/images/saglik-hukuk.webp'
 import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 
@@ -8,8 +8,8 @@ export default function page() {
     <>
     <div className='calisma-alan-bg flex flex-col items-center'>
     <div className="m-auto flex flex-col items-center">
-    <h1 className="background-h lg:text-3xl text-lg w-fit mx-auto px-4 bg-gray-900 text-white">Özdemir Hukuk Bürosu</h1>
-    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Sağlık Hukuku</p>
+    <h1 className="background-h lg:text-5xl text-xl w-fit mx-auto px-4 text-gray-200">Özdemir Hukuk Bürosu </h1>
+    <p className="background-p lg:text-3xl text-lg lg:mt-4 mt-2 w-fit mx-auto px-4 text-gray-300">Sağlık Hukuku</p>
   </div>
   </div>
   <div className='text-black h-full'>

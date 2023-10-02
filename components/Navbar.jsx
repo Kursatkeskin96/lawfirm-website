@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 import Image from 'next/image';
-import Logo from "../assets/images/logo1.png"
+import Logo from "../assets/images/logo1.webp"
 
 export default function Navbar() {
 
@@ -17,12 +17,12 @@ const handleNav = () => {
     <div className='fixed w-full h-14 shadow-xl z-[100] bg-[white]  text-[#293133] p-4'>
      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
       <Link href='/'>
-      <Image src={Logo} width={180} alt='logo'></Image>
+      <Image src={Logo} width={180} alt='logo' priority={true}></Image>
       </Link>
       <div>
         <ul className='hidden md:flex'>
           <Link href='/'>
-          <li className='ml-10 text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Ana Sayfa</li>
+          <li className='ml-10 text-sm  border-b-2 px-1 border-[#E5BA73] transition-colors duration-300'>Ana Sayfa</li>
           </Link>
           <Link href='/hakkimizda'>
           <li className='ml-10 text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>Hakkımızda</li>

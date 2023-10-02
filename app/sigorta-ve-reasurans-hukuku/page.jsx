@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import React from 'react'
 
 export default function page() {
@@ -6,8 +6,8 @@ export default function page() {
     <>
     <div className='reasurans-bg flex flex-col items-center'>
     <div className="m-auto flex flex-col items-center">
-    <h1 className="background-h lg:text-3xl text-xl w-fit mx-auto px-4 bg-gray-900 text-white">Özdemir Hukuk Bürosu</h1>
-    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Sigorta ve Reasürans</p>
+    <h1 className="background-h lg:text-5xl text-xl w-fit mx-auto px-4 text-gray-200">Özdemir Hukuk Bürosu </h1>
+    <p className="background-p lg:text-3xl text-lg lg:mt-4 mt-2 w-fit mx-auto px-4 text-gray-300">Sigorta ve Reasürans</p>
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>

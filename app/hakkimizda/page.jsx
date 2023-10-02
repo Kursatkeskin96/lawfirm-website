@@ -1,15 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import Ozge2 from '../../assets/images/ozge.png'
-import logo1 from '@/assets/images/logo1.png'
+import logo1 from '@/assets/images/logo1.webp'
 
 export default function Hakkimizda() {
   return (
     <>
   <div className='about-bg flex flex-col items-center'>
     <div className="m-auto flex flex-col items-center">
-    <h1 className="background-h lg:text-3xl text-xl w-fit mx-auto px-4 bg-gray-900 text-white">Özdemir Hukuk Bürosu</h1>
-    <p className="background-p lg:text-2xl text-lg mt-4 w-fit mx-auto px-4 bg-[#E5BA73] text-white">Hakkımızda</p>
+    <h1 className="background-h lg:text-5xl text-xl w-fit mx-auto px-4 text-gray-200">Özdemir Hukuk Bürosu </h1>
+    <p className="background-p lg:text-3xl text-lg lg:mt-4 mt-2 w-fit mx-auto px-4 text-gray-300">Hakkımızda</p>
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>
@@ -17,7 +16,7 @@ export default function Hakkimizda() {
        <div className='flex flex-col items-center justify-center text-center'>
         <div className=' mt-10 lg:mt-10 text-center h-fit mb-20 w-[90%]'>
          <div className='h-[150px] max-h-fit w-full flex justify-center items-center mb-10'>
-          <Image className='rounded-md' src={logo1} alt="" width={400} />
+          <Image className='rounded-md' src={logo1} alt="" width={400} placeholder="blur"  />
          </div>
             <div className='mt-10 md:mt-0 lg:mt-0 h-full w-full lg:text-left text-center'>
               <p>Özdemir Hukuk Ofisi 2023 yılında İstanbul merkezli olarak kurulmuştur. Hukuk ofisimizde başta

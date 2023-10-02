@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Ozge2 from '../assets/images/ozge.png'
+import Ozge2 from '../assets/images/ozge.webp'
 
 export default function Ozge() {
   return (

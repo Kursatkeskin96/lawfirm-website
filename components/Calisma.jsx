@@ -1,6 +1,5 @@
 'use client'
-import Image from "next/image";
-import Arabuluculuk from '../assets/images/arabuluculuk.jpg'
+
 
 export default function Calisma() {
   return (
