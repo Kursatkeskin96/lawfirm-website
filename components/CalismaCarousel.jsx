@@ -14,10 +14,40 @@ import 'swiper/css/scrollbar';
 
 import Link from 'next/link';
 
-export default function CalismaCarousel() {
+export default function CalismaCarousel({ params: { lang }}) {
+
+    const dictionaries = {
+        tr: {
+          h1: 'Çalışma Alanlarımız',
+          p1: 'Dava Takibi ve Uyuşmazlık Çözümü',
+          p2: 'Arabuluculuk',
+          p3: 'Sigorta ve Reasürans Hukuku',
+          p4: 'Sözleşmeler Hukuku',
+          p5: 'Tüketici Hukuku',
+          p6: 'Sağlık Hukuku',
+          p7: 'İş Hukuku',
+          p8: 'İcra ve İflas Hukuku',
+          button: 'Detay'
+        },
+        en: {
+          h1: 'Areas of Expertise',
+          p1: 'Litigation and Dispute Resolution',
+          p2: 'Mediation',
+          p3: 'Insurance and Reinsurance Law',
+          p4: 'Contract Law',
+          p5: 'Consumer Law',
+          p6: 'Health Law',
+          p7: 'Labor Law',
+          p8: 'Execution and Bankruptcy Law',
+          button: 'See More'
+        },
+      };
+    
+      const navigation = dictionaries[lang];
+
   return (
     <div className='pb-20'> 
-     <h1 className='mb-10 text-2xl border-b border-[#E5BA73] text-center lg:mt-20 md:mt-[300px] mt-20'>Çalışma Alanlarımız</h1>
+     <h1 className='mb-10 text-2xl border-b border-[#E5BA73] text-center lg:mt-20 md:mt-[300px] mt-20'>{navigation.h1}</h1>
     <Swiper style={{"--swiper-pagination-color": "#FFFFFF",
   "--swiper-pagination-bullet-inactive-color": "#999999",
   "--swiper-pagination-bullet-inactive-opacity": "1",
@@ -50,67 +80,67 @@ export default function CalismaCarousel() {
       }}
     >
       <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu'>
+      <Link href={`/${lang}/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-3 hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm">Dava Takibi ve Uyuşmazlık Çözümü</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm">{navigation.p1}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
 
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/arabuluculuk'>
+    <Link href={`/${lang}/calisma-alanlarimiz/arabuluculuk`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-1  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Arabuluculuk</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p2}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div> 
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-7  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Sigorta ve Reasürans Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p3}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/sozlesmeler-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/sozlesmeler-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-2  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Sözleşmeler Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p4}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/tuketici-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/tuketici-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-9  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Tüketici Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p5}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/saglik-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/saglik-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-6  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">Sağlık Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p6}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/is-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/is-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-5  hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">İş Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p7}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>
     <SwiperSlide>
-        <Link href='/calisma-alanlarimiz/icra-ve-iflas-hukuku'>
+    <Link href={`/${lang}/calisma-alanlarimiz/icra-ve-iflas-hukuku`}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-4 hover:scale-105 duration-300 ease-in">
-                <h1 className="text-white text-lg shadow-sm ">İcra ve İflas Hukuku</h1>
-                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">Detay</button>
+                <h1 className="text-white text-lg shadow-sm ">{navigation.p8}</h1>
+                    <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
         </Link>
     </SwiperSlide>

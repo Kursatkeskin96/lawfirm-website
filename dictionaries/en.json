@@ -1,0 +1,102 @@
+{
+    "home": {
+        "herosection": {
+            "h1": "Ozdemir Law Firm",
+            "p": "Law and Consulting",
+            "button": "Contact"
+        },
+        "ozge": {
+            "p": "The founding lawyer of our law firm, Özge Özdemir, graduated from Istanbul University Faculty of Law in 2014. She began her professional career at one of Turkey's leading law firms and continued to work there for over eight years, assuming various responsibilities and roles as one of the managing attorneys of the department. Following the accumulation of knowledge and experience over the years, she decided to establish Özdemir Law Office with the aim of providing legal services to clients both nationally and internationally. Throughout her career, she has been active in various areas of private law, particularly insurance law, contract law, liability law, consumer law, and health law. Additionally, Özdemir is a registered mediator in the Ministry of Justice and actively plays a neutral and independent mediator role in some disputes. Moreover, in certain disputes involving her clients, she acts as a representative during the mediation process. Driven by a strong interest in insurance law, she aimed to develop in this field and personally conducted various studies. She successfully completed certificate training programs on Practical Bodily Injury Compensation Calculations in Traffic Insurance and General Terms and Clauses of Goods Transportation Insurance organized by TSEV. In 2023, she was elected as a member of the Executive Board of the Insurance Law Commission of the Istanbul Bar Association. In the same year, she successfully completed the Non-Life Insurance Arbitration Exam held by the Insurance Arbitration Commission and earned the title of insurance arbitrator. Currently, at Özdemir Law Office, she provides legal and advisory services to national and international clients in various areas of private law."
+        }
+    },
+    "navigation": {
+        "home": "Home",
+        "about": "About Us",
+        "sigorta": "Insurance and Reinsurance",
+        "areasexpertise": "Areas of Expertise",
+        "contact": "Contact Us"
+    },
+    "sigorta": {
+        "h1": "Insurance and Reinsurance",
+        "p1": "The main focus of our law firm lies in Insurance and Reinsurance Law, representing our most significant experience, expertise, and practice area. Indeed, consultancy, follow-up, and representation services are provided within the framework of high quality and global standards for any kind of national and international dispute arising from insurance and reinsurance contracts. Both Turkish and foreign legislation, judicial decisions, congresses, symposiums, and sectoral developments are meticulously monitored in this field, and knowledge is expanded day by day.",
+        "p2": "The history of the concept of insurance dates back to ancient times, and the fundamental idea behind the emergence of this concept is the sharing of certain risks that individuals may encounter in their daily lives among those who may face these risks. Therefore, it is possible to say that solidarity and assurance are at the core of insurance.",
+        "span": "Click here for more information."
+    },
+    "about": {
+        "h1": "About Us",
+        "h2": "Özdemir Law Firm",
+        "p": "Özdemir Law Office was established in 2023, based in Istanbul. Our law office operates in various branches of private law such as insurance law, liability law, contract law, consumer law, and health law. Effective representation is provided for national and international clients in litigation and arbitration proceedings. Based on the knowledge and experience accumulated over the years, high-quality legal consultancy services are provided. The resolution of disputes belonging to our clients is meticulously followed from the initial stage to the final stage. In this context, each dispute is evaluated differently according to its nature. The legislation applicable to the dispute, precedent court decisions, and doctrinal opinions are examined. Subsequently, a legal roadmap to be followed, tailored to the needs and interests of the clients, is determined. Depending on the nature of the dispute, if possible, alternative dispute resolution methods are considered first, and all necessary risk analyses are conducted. Our primary goal is to provide our clients and consultees with high-quality, dynamic, effective, and results-oriented legal services within the framework of professional ethics. In this regard, all developments in the field of national and international law are closely monitored, and the compliance process for changes is carried out with great care. Our ultimate goal is to develop professionally and academically day by day, reach maturity on a national and international level. On this path, we have full confidence that by displaying an attitude and approach befitting the legal profession, and by showing maximum care and effort, we will provide our clients and consultees with quality service."
+    },
+    "sigorta2": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Insurance and Reinsurance",
+        "p1": "The most significant experience, expertise, and field of practice of our law firm is Insurance and Reinsurance Law. Indeed, consultancy, monitoring, and representation services are provided in high quality and within global standards for any kind of national and international disputes arising from insurance and reinsurance contracts. The Turkish and foreign legislation, judicial decisions, congresses, symposiums, and sectoral developments in this field are meticulously monitored, and knowledge is expanded day by day.",
+        "p2": "The concept of insurance has ancient roots, and the fundamental idea behind its emergence is the sharing of certain risks that may be encountered in daily life among individuals who may face these risks. Therefore, it can be said that solidarity and security are at the core of insurance.",
+        "p3": "With an insurance contract, the insurer commits to indemnify or pay a certain amount in the event of the occurrence of the insured risk or event, against a specific premium received from the policyholder. Disputes arising from insurance contracts can arise between the insurer and the policyholder, the insured or the beneficiary. Resolving disputes of this nature requires significant technical and legal expertise and experience, including determining the applicable law for the insurance contract, the applicable regulations, and the competent court, as well as interpreting the general and specific terms of the policy, and establishing whether the parties fulfilled their pre and post-contractual obligations. Our law firm specializes in resolving disputes of this nature and possesses comprehensive knowledge and experience.",
+        "p4": "Insurance contracts have been classified differently in the literature. In Turkish law, the main classification is into property insurances and liability insurances. Property insurances are further divided into property and liability insurances, while liability insurances are further divided into life insurances, accident insurances, and sickness and health insurances.",
+        "p5": "The predominant areas of focus for our office in national and international disputes arising from insurance contracts include workplace and residential damages arising from risks such as fire and similar incidents, transportation damages occurring on the road, at sea, in the air, or on the railway, boat and port damages, large-scale machinery damages, claims arising from mandatory and optional professional liability insurances, claims arising from financial, credit, and debt insurances, bodily and material damages arising from traffic accidents. Additionally, our law office diligently monitors disputes arising from all types of insurance contracts not listed here.",
+        "p6": "Active involvement takes place in the pre-litigation determinations of the damages subject to disputes, both physically and through file examinations. Clients are represented in mediation, litigation, and arbitration stages, and the entire process is closely monitored from the initial stage to the final stage.",
+        "p7": "Reinsurance, on the other hand, involves the insurer reinsuring the interest insured. It is often referred to in literature as reinsurance. Reinsurance serves as a means of transferring and distributing risk. Here, the insurer reinsuring the interest insured is referred to as the cedant, and the reinsurer reinsuring it is referred to as the reinsurer. There are different types of reinsurance contracts, and determining these types and the legal nature thereof varies from case to case.",
+        "p8": "Disputes may arise between the cedant and the reinsurer due to reinsurance contracts. In practice, a significant portion of reinsurance contracts have an international character. Therefore, it is crucial to determine the applicable law, competent court, application of provisions such as referring to the PRICL (Principles of Reinsurance Contract Law) in the contract.",
+        "p9": "A significant portion of the disputes arising from reinsurance contracts stem from differences between the coverage in the insurance contract and the coverage in the reinsurance contract. After determining the applicable law, it is crucial to correctly interpret records in the reinsurance contract such as 'follow the fortunes,' 'follow the settlements,' 'front,' 'claims control clauses,' 'claims cooperation clauses.' In disputes of this nature, it is observed that parties resort to alternative dispute resolution methods, arbitration, and litigation.",
+        "p10": "In our law firm, services are provided in terms of establishing, revising, and arranging reinsurance contracts from the inception of the contract. Efforts are made to prevent legal disputes, and after the emergence of a dispute, clients are represented in alternative dispute resolution methods, arbitration, and litigation.",
+        "p11": "Based on our extensive knowledge and experience gained from national and international disputes arising from insurance and reinsurance contracts, which constitute the most important field of practice for our office, we provide high-quality and effective legal services to our clients and consultees in accordance with global standards."
+    },
+    "contact": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Contact Us"
+    },
+    "calisma": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Areas of Expertise",
+        "p1": "Litigation and Dispute Resolution",
+        "p2": "Mediation",
+        "p3": "Insurance and Reinsurance Law",
+        "p4": "Contract Law",
+        "p5": "Consumer Law",
+        "p6": "Health Law",
+        "p7": "Labor Law",
+        "p8": "Execution and Bankruptcy Law",
+       "button": "See More"
+    },
+    "dava": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Litigation and Dispute Resolution",
+        "p": "The aim in our law firm is to resolve our clients' legal disputes quickly, effectively, and beneficially. In line with this goal, each legal dispute is evaluated individually and with special attention. Relevant legislation, precedent court decisions, and current sectoral practices are taken into consideration to conduct a benefit and risk analysis, and a roadmap is determined. In this context, in order to prevent possible legal disputes from arising, consultancy services are provided throughout the entire process, starting from the establishment of legal relationships. Alternative dispute resolution methods are evaluated to the extent that they are in the best interest of our clients to achieve positive results in a short period of time. In the event that the dispute is brought to the judicial process, legal proceedings are meticulously and diligently followed, both in favor and against, with care and precision."
+    },
+    "arabuluculuk": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Mediation",
+        "p": "Mediation is an alternative dispute resolution method aimed at bringing parties involved in a legal dispute together for negotiations and reaching a resolution. Mediation is conducted by impartial and independent third parties who are registered as mediators in the registry held by the Ministry of Justice. In our law firm, disputes in the mediation phase related to our clients are followed by acting as legal representatives. In addition to this, voluntary mediation services are also provided with a team of registered mediators."
+    },
+    "sigortadetay": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Insurance and Reinsurance Law",
+        "p": "Our law firm's most significant experience, expertise, and field of practice is Insurance and Reinsurance Law. In fact, consultancy, monitoring, and representation services are provided in high quality and within global standards for any kind of national and international disputes arising from insurance and reinsurance contracts. The Turkish and foreign legislation, judicial decisions, congresses, symposiums, and sectoral developments in this field are meticulously monitored, and knowledge is expanded day by day. The predominant areas of focus for our office in national and international disputes arising from insurance contracts include workplace and residential damages arising from risks such as fire and similar incidents, transportation damages occurring on the road, at sea, in the air, or on the railway, boat and port damages, large-scale machinery damages, claims arising from mandatory and optional professional liability insurances, claims arising from financial, credit, and debt insurances, bodily and material damages arising from traffic accidents. Additionally, our law office diligently monitors disputes arising from all types of insurance contracts not listed here. Active involvement takes place in the pre-litigation determinations of the damages subject to disputes, both physically and through file examinations. Clients are represented in mediation, litigation, and arbitration stages, and the entire process is closely monitored from the initial stage to the final stage. Consultancy services are provided from the inception of the contract for the establishment of reinsurance contracts, including their formation, revision, and organization. Efforts are made to prevent legal disputes, and in case of a dispute, alternative dispute resolution methods are employed. Clients are represented in arbitration and litigation proceedings. Leveraging our extensive knowledge and experience in national and international disputes arising from insurance and reinsurance contracts, we provide our clients with high-quality and effective legal services in accordance with global standards."
+    },
+    "sozlesme": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Contract Law",
+        "p": "Comprehensive and high-quality services are provided in the proper preparation of various contracts in which the clients and consultees are parties, the legal examination of existing contracts, and if necessary, their revision. Additionally, advisory responsibilities are undertaken for any legal matters and procedures that may arise while the contract is in effect. In the event of a dispute arising from contracts, alternative dispute resolution methods are considered first, and clients are represented in both litigation and arbitration if deemed necessary."
+    },
+    "tuketici": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Consumer Law",
+        "p": "Legal and advisory services are provided for any kind of dispute arising from consumer transactions. In this context, the legislation regulating legal relationships between consumers and individuals such as producers, sellers, importers, etc., is closely monitored, and up-to-date information is obtained based on precedent judicial decisions. Depending on the subject and amount of the dispute, clients are represented before either the Consumer Arbitration Board or the court."
+    },
+    "saglik": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Health Law",
+        "p": "Medical malpractice is defined as an action or situation where a healthcare professional fails to perform the standard procedure due to intention, fault, or negligence, provides incorrect or incomplete diagnosis or treatment due to lack of knowledge or skills, or fails to administer necessary treatment, resulting in harm to the patient. Our law firm conducts detailed studies on private legal disputes arising from medical malpractice. We evaluate mandatory and optional insurance contracts related to professional liability, and we handle the process for both patients and medical practitioners with sensitivity, both before and during legal proceedings."
+    },
+    "is": {
+        "h1": "Özdemir Law Firm",
+        "h2": "Labor Law",
+        "p": "It is well known that labor and social security law plays an extremely important role in the world of work. In fact, the relevant legislation comprehensively regulates the relationships between employee-employer and employer-administration. Taking legally compliant steps from the early stages of establishing the employment relationship is crucial in preventing potential disputes. In this context, our law firm provides a wide range of services, including the establishment of the employment contract, including the hiring process, preparation, updating, and revision of contract clauses, providing consultancy on all matters related to labor and social security law throughout the employment relationship, applying procedures for termination of the employment contract, managing the termination process, representing clients in voluntary and mandatory mediation processes, tracking various labor receivables such as severance pay, notice pay, overtime pay, annual leave pay, handling lawsuits related to issues such as reinstatement, material and moral compensation arising from work accidents and occupational diseases, workplace harassment (mobbing), and service determination, and representing clients in these lawsuits."
+    },
+    "icra": {
+        "h1": "Özdemir Hukuk Bürosu",
+        "h2": "Execution and Bankruptcy Law",
+        "p": "One of the most important goals of our law firm is to swiftly and effectively secure our clients' rights and claims. In line with this, we provide legal support and consultancy in matters such as conducting reconciliation talks with the debtors for the collection of our clients' receivables, initiating and monitoring necessary proceedings at enforcement offices, and representing our clients in enforcement courts. Additionally, for enforcement proceedings initiated against our clients, the relevant enforcement and lawsuit files are meticulously tracked, and all necessary procedures are personally carried out."
+    }
+}
