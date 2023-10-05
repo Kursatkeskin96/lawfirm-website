@@ -1,6 +1,12 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Kişisel Veri',
+  description: 'Özdemir Hukuk Bürosu kişisel verilerin işlenmesi gizlilik politikası',
+}
+
 export default function Yasal() {
+  
   return (
     <>
 <div className='iletisim-bg flex flex-col items-center'>

@@ -4,6 +4,11 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | İcra ve İflas Hukuku',
+  description: 'Özdemir Hukuk ofisi olarak, müvekkillerimizin hak ve alacaklarına hızlı ve etkili bir şekilde kavuşmalarını sağlamak için çaba gösteriyor. Alacak tahsili için borçlu taraflarla sulh görüşmeleri yapılması, icra müdürlüklerinde takip başlatılması ve takip edilmesi, icra hukuk mahkemelerinde temsil görevi gibi konularda hukuki destek ve danışmanlık sağlıyoruz.',
+}
+
 export default async function page({ params: { lang }}) {
   const { icra } = await getDictionary(lang)
   return (

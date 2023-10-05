@@ -42,20 +42,20 @@ const handleNav = () => {
       </Link>
       <div>
         <ul className='hidden md:flex'>
-          <Link href='/'>
-          <li className='ml-10 text-sm  border-b-2 px-1 border-[#E5BA73] transition-colors duration-300'>{navigation.home}</li>
+          <Link href={`/${lang}/`}>
+          <li className='text-sm  border-b-2 px-1 border-[#E5BA73] transition-colors duration-300'>{navigation.home}</li>
           </Link>
           <Link href={`/${lang}/hakkimizda`}>
-          <li className='ml-10 text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.about}</li>
+          <li className='mx-6 text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.about}</li>
           </Link>
           <Link href={`/${lang}/sigorta-ve-reasurans-hukuku`}>
-          <li className='ml-10 text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.sigorta}</li>
+          <li className='text-sm  border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.sigorta}</li>
           </Link>
           <Link href={`/${lang}/calisma-alanlarimiz`}>
-          <li className='ml-10 text-sm border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.areasexpertise}</li>
+          <li className='mx-6 text-sm border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.areasexpertise}</li>
           </Link>
           <Link href={`/${lang}/iletisim`}>
-          <li className='ml-10 text-sm mr-2 border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.contact}</li>
+          <li className='text-sm mr-4 border-b-2 border-transparent hover:border-[#E5BA73] transition-colors duration-300'>{navigation.contact}</li>
           </Link>
           <LocaleSwitcher />
         </ul>

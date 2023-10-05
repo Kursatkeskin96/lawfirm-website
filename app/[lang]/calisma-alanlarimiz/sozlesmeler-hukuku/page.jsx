@@ -4,6 +4,12 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Sözleşmeler Hukuku',
+  description: 'Özdemir Hukuk ofisi, müvekkil ve danışanların taraf oldukları sözleşmelerin düzenlenmesinden, mevcut sözleşmelerin hukuki incelemesine, gerektiğinde revize edilmesinden, sözleşme sürecinde doğabilecek hukuki işlemlere kadar kapsamlı ve nitelikli hizmet sunmaktadır. Sözleşmelerden kaynaklanan ihtilaflarda alternatif uyuşmazlık çözüm yolları değerlendirilir ve müvekkiller gerek dava gerek tahkim süreçlerinde temsil edilir.',
+}
+
+
 export default async function page({ params: { lang }}) {
   const { sozlesme } = await getDictionary(lang)
   return (

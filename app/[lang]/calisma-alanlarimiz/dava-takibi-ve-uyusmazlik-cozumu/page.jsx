@@ -4,6 +4,11 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Dava Takibi ve Uyuşmazlık Çözümü',
+  description: 'Özdemir Hukuk ofisi olarak, müvekkillerimizin yaşadığı hukuki uyuşmazlıkları hızlı, etkin ve faydalı bir şekilde sonuçlandırmak için çaba gösteriyoruz. Mevzuat, emsal kararlar ve sektörel uygulamaları dikkate alarak her bir uyuşmazlığı özel ve ayrıcalıklı bir şekilde değerlendiriyor, fayda ve risk analizi yaparak yol haritası belirliyoruz.',
+}
+
 export default async function page({ params: { lang }}) {
   const { dava } = await getDictionary(lang)
   return (

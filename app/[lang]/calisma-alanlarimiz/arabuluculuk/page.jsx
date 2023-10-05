@@ -4,6 +4,11 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Arabuluculuk',
+  description: 'Özdemir Hukuk ofisi olarak, Profesyonel arabuluculuk hizmetimizle, hukuki uyuşmazlıklarınıza tarafsız ve bağımsız bir çözüm sunuyoruz. Adalet Bakanlığı siciline kayıtlı deneyimli arabulucularımızla müvekkillerimizin haklarını koruyoruz.',
+}
+
 export default async function page({ params: { lang }}) {
   const { arabuluculuk } = await getDictionary(lang)
   return (

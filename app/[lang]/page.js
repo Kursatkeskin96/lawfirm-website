@@ -6,6 +6,12 @@ import Image from 'next/image';
 import Ozge2 from '@/assets/images/ozge.webp';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Ana Sayfa',
+  description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.',
+}
+ 
+
 
 export default async function Home({ params: { lang }}) {
   
@@ -16,7 +22,7 @@ export default async function Home({ params: { lang }}) {
     <div className="m-auto flex flex-col items-center">
     <h1 className="background-h lg:text-5xl text-xl w-fit mx-auto px-4 text-gray-200">{home.herosection.h1}</h1>
     <p className="background-p lg:text-3xl text-lg lg:mt-4 mt-2 w-fit mx-auto px-4 text-gray-300">{home.herosection.p}</p>
-   <Link href='/iletisim'><button className='bg-[#E5BA73] hover:bg-[#f0d09d] border[1px] border-black text-black rounded-md p-1 lg:w-32 w-20 lg:mt-5 mt-2 shadow-md'>{home.herosection.button}</button></Link>
+   <Link href={`/${lang}/iletisim`}><button className='bg-[#E5BA73] hover:bg-[#f0d09d] border[1px] border-black text-black rounded-md p-1 lg:w-32 w-20 lg:mt-5 mt-2 shadow-md'>{home.herosection.button}</button></Link>
   </div>
   </div>
   <div className='text-black '>

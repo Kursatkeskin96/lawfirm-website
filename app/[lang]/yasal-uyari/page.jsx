@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Yasal Uyarı',
+  description: 'Özdemir Hukuk Bürosu yasal uyarı metni.',
+}
+
 export default function Yasal() {
   return (
     <>

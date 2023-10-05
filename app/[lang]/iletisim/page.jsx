@@ -2,6 +2,12 @@ import React from 'react'
 import Contact from '@/components/Contact';
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | İletişim',
+  description: 'Uzman hukuki danışmanlık almak için bizimle iletişime geçin. Istanbul şehrinde bulunan ofisimizi ziyaret edin. Bizi +90 533 300 36 94 numarasından arayabilir veya info@hukukozdemir.com adresine e-posta gönderebilirsiniz. Ayrıca bu sayfadaki iletişim formu aracılığıyla bize doğrudan mesaj gönderebilirsiniz. Hukuki ihtiyaçlarınız için buradayız.',
+}
+ 
+
 export default async function Iletisim({ params: { lang }}) {
 
   const { contact } = await getDictionary(lang)

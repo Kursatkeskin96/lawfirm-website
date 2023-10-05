@@ -3,6 +3,12 @@ import Image from 'next/image'
 import logo1 from '@/assets/images/logo1.webp'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Hakkımızda',
+  description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.',
+}
+ 
+
 export default async function Hakkimizda({ params: { lang }}) {
 
   const { about } = await getDictionary(lang)

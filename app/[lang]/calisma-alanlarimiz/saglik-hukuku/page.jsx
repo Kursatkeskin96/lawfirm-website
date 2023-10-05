@@ -4,6 +4,12 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Sağlık Hukuku',
+  description: 'Hukuk ofisimiz, tıbbi malpraktisten doğan özel hukuk uyuşmazlıklarını detaylı bir şekilde inceler. Ayrıca mesleki sorumluluğa dair zorunlu ve ihtiyari sigorta sözleşmelerini değerlendirir. Hasta veya hekim müvekkillerimizin dava öncesi ve dava esnasındaki süreçlerini hassasiyetle yürütür.',
+}
+
+
 export default async function page({ params: { lang }}) {
   const { saglik } = await getDictionary(lang)
   return (

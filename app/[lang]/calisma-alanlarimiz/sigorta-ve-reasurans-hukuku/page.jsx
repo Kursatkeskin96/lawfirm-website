@@ -4,6 +4,11 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Sigorta ve Reasürans Hukuku',
+  description: 'Hukuk ofisimizin en önemli deneyim, uzmanlık ve çalışma alanını Sigorta ve Reasürans Hukuku oluşturmaktadır. Ulusal ve uluslararası uyuşmazlıklarda danışmanlık, takip ve taraf vekilliği hizmetleri global standartlar çerçevesinde sunulmaktadır. Yangın, taşıma hasarları, mesleki sorumluluk, mali mesuliyet, trafik kazaları gibi alanlarda yoğun bilgi birikimiyle müvekkillerimize etkin hukuk hizmeti sunmaktayız.',
+}
+
 export default async function page({ params: { lang }}) {
   const { sigortadetay } = await getDictionary(lang)
   return (

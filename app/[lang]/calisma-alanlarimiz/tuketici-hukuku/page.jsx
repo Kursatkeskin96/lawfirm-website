@@ -4,6 +4,12 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
+export const metadata = {
+  title: 'Özdemir Hukuk Bürosu | Tüketici Hukuku',
+  description: 'Özdemir Hukuk Bürosu, tüketici işlemlerinden doğan her türlü uyuşmazlıkta hukuki danışmanlık sağlamaktadır. Tüketici ile üretici, satıcı, ithalatçı arasındaki ilişkileri düzenleyen mevzuat ve emsal yargı kararları titizlikle takip edilir. Uyuşmazlığın niteliğine göre müvekkiller, tüketici hakem heyeti veya mahkeme nezdinde temsil edilir.',
+}
+
+
 export default async function page({ params: { lang }}) {
   const { tuketici } = await getDictionary(lang)
   return (
