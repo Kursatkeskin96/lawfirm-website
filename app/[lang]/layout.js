@@ -25,6 +25,7 @@ export default function RootLayout({ children, params }) {
         <main>
         <Navbar lang={params.lang} />
           {children}
+          <Analytics />
           <Footer lang={params.lang} />
         </main>
       </body>
