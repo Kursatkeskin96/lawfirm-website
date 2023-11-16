@@ -4,9 +4,14 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Sağlık Hukuku',
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Sağlık Hukuku',
   description: 'Hukuk ofisimiz, tıbbi malpraktisten doğan özel hukuk uyuşmazlıklarını detaylı bir şekilde inceler. Ayrıca mesleki sorumluluğa dair zorunlu ve ihtiyari sigorta sözleşmelerini değerlendirir. Hasta veya hekim müvekkillerimizin dava öncesi ve dava esnasındaki süreçlerini hassasiyetle yürütür.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/calisma-alanlarimiz/saglik-hukuku`
+  }
+  }
 }
 
 
@@ -21,7 +26,7 @@ export default async function page({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-full'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{saglik.h2}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{saglik.h2}</h2>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>

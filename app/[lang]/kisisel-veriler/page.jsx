@@ -1,8 +1,14 @@
 import React from 'react'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Kişisel Veri',
+
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Kişisel Veri',
   description: 'Özdemir Hukuk Bürosu kişisel verilerin işlenmesi gizlilik politikası',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/kisisel-veriler`
+  }
+  }
 }
 
 export default function Yasal() {
@@ -20,7 +26,7 @@ export default function Yasal() {
        <div className=''>
         <div className='mt-10 lg:mt-10 mx-auto h-fit mb-20 w-[90%]'>
             <div className='mt-10 md:mt-0 lg:mt-0 h-full w-full'>
-            <h1 className='text-xl font-bold'>ÖZDEMİR HUKUK BÜROSU KİŞİSEL VERİLERİN İŞLENMESİ GİZLİLİK POLİTİKASI</h1>
+            <h2 className='text-xl font-bold'>ÖZDEMİR HUKUK BÜROSU KİŞİSEL VERİLERİN İŞLENMESİ GİZLİLİK POLİTİKASI</h2>
             <p className='my-4'>İşbu Gizlilik Politikası 24.03.2016 tarihli ve 6698 sayılı “Kişisel Verilerin Korunması Kanunu” (KVKK)’nun 10.maddesi gereğince hazırlanmıştır.</p>
             <p>Özdemir Hukuk Bürosu (“Özdemir”) olarak kişisel verilerinizin güvenliği hususuna
             azami hassasiyet göstermekteyiz. Özdemir olarak hizmetlerimizden faydalanan kişiler

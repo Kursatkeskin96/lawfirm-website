@@ -2,9 +2,15 @@
 import React from 'react'
 import { getDictionary } from '@/lib/dictionary';
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Sigorta ve Reasürans Hukuku',
-  description: 'Hukuk ofisimizin en önemli deneyim, uzmanlık ve çalışma alanını Sigorta ve Reasürans Hukuku oluşturmaktadır. Ulusal ve uluslararası uyuşmazlıklarda danışmanlık, takip ve taraf vekilliği hizmetleri global standartlar çerçevesinde sunulmaktadır. Yangın, taşıma hasarları, mesleki sorumluluk, mali mesuliyet, trafik kazaları gibi alanlarda yoğun bilgi birikimiyle müvekkillerimize etkin hukuk hizmeti sunmaktayız.',
+
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Sigorta ve Reasürans Hukuku',
+    description: 'Hukuk ofisimizin en önemli deneyim, uzmanlık ve çalışma alanını Sigorta ve Reasürans Hukuku oluşturmaktadır. Ulusal ve uluslararası uyuşmazlıklarda danışmanlık, takip ve taraf vekilliği hizmetleri global standartlar çerçevesinde sunulmaktadır. Yangın, taşıma hasarları, mesleki sorumluluk, mali mesuliyet, trafik kazaları gibi alanlarda yoğun bilgi birikimiyle müvekkillerimize etkin hukuk hizmeti sunmaktayız.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/sigorta-ve-reasurans-hukuku`
+  }
+  }
 }
 
 export default async function page({ params: { lang }}) {
@@ -18,7 +24,7 @@ export default async function page({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{sigorta2.h2}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{sigorta2.h2}</h2>
        <div className='flex flex-col items-center justify-center text-center'>
         <div className=' mt-10 lg:mt-10 text-center h-fit mb-20 w-[90%]'>
             <div className='mt-10 md:mt-0 lg:mt-0 h-full w-full text-left'>

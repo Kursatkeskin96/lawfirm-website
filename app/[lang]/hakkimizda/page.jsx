@@ -3,11 +3,16 @@ import Image from 'next/image'
 import logo1 from '@/assets/images/logo1.webp'
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Hakkımızda',
+
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Hakkımızda',
   description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/hakkimizda`
+  }
+  }
 }
- 
 
 export default async function Hakkimizda({ params: { lang }}) {
 
@@ -21,7 +26,7 @@ export default async function Hakkimizda({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{about.h1}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{about.h1}</h2>
        <div className='flex flex-col items-center justify-center text-center'>
         <div className=' mt-10 lg:mt-10 text-center h-fit mb-20 w-[90%]'>
          <div className='h-[150px] max-h-fit w-full flex justify-center items-center mb-10'>

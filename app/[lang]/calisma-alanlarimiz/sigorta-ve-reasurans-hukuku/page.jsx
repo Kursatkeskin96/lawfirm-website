@@ -4,9 +4,15 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Sigorta ve Reasürans Hukuku',
-  description: 'Hukuk ofisimizin en önemli deneyim, uzmanlık ve çalışma alanını Sigorta ve Reasürans Hukuku oluşturmaktadır. Ulusal ve uluslararası uyuşmazlıklarda danışmanlık, takip ve taraf vekilliği hizmetleri global standartlar çerçevesinde sunulmaktadır. Yangın, taşıma hasarları, mesleki sorumluluk, mali mesuliyet, trafik kazaları gibi alanlarda yoğun bilgi birikimiyle müvekkillerimize etkin hukuk hizmeti sunmaktayız.',
+
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Sigorta ve Reasürans Hukuku',
+    description: 'Hukuk ofisimizin en önemli deneyim, uzmanlık ve çalışma alanını Sigorta ve Reasürans Hukuku oluşturmaktadır. Ulusal ve uluslararası uyuşmazlıklarda danışmanlık, takip ve taraf vekilliği hizmetleri global standartlar çerçevesinde sunulmaktadır. Yangın, taşıma hasarları, mesleki sorumluluk, mali mesuliyet, trafik kazaları gibi alanlarda yoğun bilgi birikimiyle müvekkillerimize etkin hukuk hizmeti sunmaktayız.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku`
+  }
+  }
 }
 
 export default async function page({ params: { lang }}) {
@@ -20,7 +26,7 @@ export default async function page({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-full'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{sigortadetay.h2}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{sigortadetay.h2}</h2>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>

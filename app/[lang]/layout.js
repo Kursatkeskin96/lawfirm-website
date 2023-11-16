@@ -20,15 +20,15 @@ export async function generateStaticParams() {
 
 export default function RootLayout({ children, params }) {
   return (
-    <html lang={params.lang}className='font-body '>
+    <html lang={params.lang} className="font-body ">
       <body suppressHydrationWarning={true}>
         <main>
-        <Navbar lang={params.lang} />
+          <Navbar lang={params.lang} />
           {children}
           <Analytics />
           <Footer lang={params.lang} />
         </main>
       </body>
     </html>
-  )
+  );
 }

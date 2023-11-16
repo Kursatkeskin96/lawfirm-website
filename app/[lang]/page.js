@@ -6,12 +6,16 @@ import Image from 'next/image';
 import Ozge2 from '@/assets/images/ozge.webp';
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Ana Sayfa',
-  description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.',
+export async function generateMetadata({ params: { lang } }) {
+  return {
+    title: "Özdemir Hukuk Bürosu | Hakkımızda",
+    description:
+      "Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.",
+    alternates: {
+      canonical: `https://www.hukukozdemir.com/${lang}`,
+    },
+  };
 }
- 
-
 
 export default async function Home({ params: { lang }}) {
   
@@ -26,7 +30,7 @@ export default async function Home({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black '>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Av. Arb. Özge Özdemir</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Av. Arb. Özge Özdemir</h2>
       <div className='mx-auto flex mt-10 lg:mt-10  flex-wrap lg:flex-nowrap text-center h-fit w-[90%]'>
         <div className='h-[400px] max-h-fit lg:w-2/5 w-full flex justify-center items-center my-auto'>
           <Image className='rounded-md' src={Ozge2} alt="" width={300} />

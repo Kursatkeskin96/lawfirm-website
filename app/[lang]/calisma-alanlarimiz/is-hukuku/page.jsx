@@ -4,9 +4,14 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | İş ve Sosyal Güvenlik Hukuku',
-  description: 'Özdemir Hukuk ofisi olarak, işe alım süreci dahil olmak üzere iş sözleşmesinin kurulması, sözleşme maddelerinin hazırlanması, güncellenmesi ve revize edilmesi gibi konularda danışmanlık hizmeti veriyoruz. İş ilişkisi boyunca iş ve sosyal güvenlik hukukuyla ilgili her türlü konuda rehberlik yapıyoruz.',
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | İş ve Sosyal Güvenlik Hukuku',
+    description: 'Özdemir Hukuk ofisi olarak, işe alım süreci dahil olmak üzere iş sözleşmesinin kurulması, sözleşme maddelerinin hazırlanması, güncellenmesi ve revize edilmesi gibi konularda danışmanlık hizmeti veriyoruz. İş ilişkisi boyunca iş ve sosyal güvenlik hukukuyla ilgili her türlü konuda rehberlik yapıyoruz.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/calisma-alanlarimiz/is-hukuku`
+  }
+  }
 }
 
 export default async function page({ params: { lang }}) {
@@ -20,7 +25,7 @@ export default async function page({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-full'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{is.h2}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{is.h2}</h2>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='h-[300px] max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>

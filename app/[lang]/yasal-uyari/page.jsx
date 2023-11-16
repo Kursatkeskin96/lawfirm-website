@@ -1,9 +1,15 @@
 import React from 'react'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Yasal Uyarı',
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Yasal Uyarı',
   description: 'Özdemir Hukuk Bürosu yasal uyarı metni.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/yasal-uyari`
+  }
+  }
 }
+
 
 export default function Yasal() {
   return (
@@ -15,7 +21,7 @@ export default function Yasal() {
   </div>
   </div>
   <div className='text-black h-fit lg:mb-0 mb-10'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Yasal Uyarı</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>Yasal Uyarı</h2>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit mb-20 w-[90%]'>
             <div className='mt-10 md:mt-0 lg:mt-0 h-full w-full lg:text-left text-center flex items-center justify-center'>

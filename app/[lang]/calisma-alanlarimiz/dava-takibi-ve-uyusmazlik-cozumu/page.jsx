@@ -4,9 +4,14 @@ import Image from 'next/image'
 import CalismaCarousel from '@/components/CalismaCarousel'
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Dava Takibi ve Uyuşmazlık Çözümü',
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Dava Takibi ve Uyuşmazlık Çözümü',
   description: 'Özdemir Hukuk ofisi olarak, müvekkillerimizin yaşadığı hukuki uyuşmazlıkları hızlı, etkin ve faydalı bir şekilde sonuçlandırmak için çaba gösteriyoruz. Mevzuat, emsal kararlar ve sektörel uygulamaları dikkate alarak her bir uyuşmazlığı özel ve ayrıcalıklı bir şekilde değerlendiriyor, fayda ve risk analizi yaparak yol haritası belirliyoruz.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu`
+  }
+  }
 }
 
 export default async function page({ params: { lang }}) {
@@ -20,7 +25,7 @@ export default async function page({ params: { lang }}) {
   </div>
   </div>
   <div className='text-black h-fit'>
-      <h1 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{dava.h2}</h1>
+      <h2 className='text-2xl  border-b border-[#E5BA73] text-center mt-20'>{dava.h2}</h2>
        <div className='flex items-center justify-center'>
         <div className='flex mt-10 lg:mt-10 justify-center flex-wrap lg:flex-nowrap items-center text-center h-fit w-[90%]'>
          <div className='max-h-fit lg:w-2/5 w-full flex justify-center mx-5'>

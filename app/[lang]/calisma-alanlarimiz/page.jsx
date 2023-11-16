@@ -2,9 +2,14 @@ import React from 'react'
 import Link from 'next/link';
 import { getDictionary } from '@/lib/dictionary'
 
-export const metadata = {
-  title: 'Özdemir Hukuk Bürosu | Çalışma Alanlarımız',
-  description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere, Arabuluculuk, Dava takibi ve uyuşmazlık çözümü, Sözleşmeler Hukuku, Tüketici Hukuku, Sağlık Hukuku, İş Hukuku ve İcra ve İflas Hukuku alanlarinda hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız.',
+export async function generateMetadata({params: {lang}}) {
+  return {
+    title: 'Özdemir Hukuk Bürosu | Çalışma Alanlarımız',
+    description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere, Arabuluculuk, Dava takibi ve uyuşmazlık çözümü, Sözleşmeler Hukuku, Tüketici Hukuku, Sağlık Hukuku, İş Hukuku ve İcra ve İflas Hukuku alanlarinda hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız.',
+  alternates:{
+    canonical: `https://www.hukukozdemir.com/${lang}/calisma-alanlarimiz`
+  }
+  }
 }
 
 export default async function Calisma({ params: { lang }}) {
