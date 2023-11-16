@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Özdemir Hukuk Bürosu',
-  description: 'Özdemir Hukuk Bürosu',
+  description: 'Özdemir Hukuk ofisi, uzmanlık alanları arasında sigorta ve reasürans hukuku başta olmak üzere geniş bir yelpazede hizmet sunmaktadır. Müvekkillerimize ulusal ve uluslararası düzeyde danışmanlık, takip ve vekillik hizmetleri sağlamaktayız. Türk ve yabancı mevzuat, yargı kararları ve sektörel gelişmeler titizlikle takip edilmektedir.'
 }
 
 export async function generateStaticParams() {
