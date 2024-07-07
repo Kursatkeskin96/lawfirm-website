@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import { getDictionary } from '@/lib/dictionary'
+import CustomLinks from '@/components/CustomLinks';
 
 export async function generateMetadata({params: {lang}}) {
   return {
@@ -27,77 +28,77 @@ export default async function Calisma({ params: { lang }}) {
   <h1 className='text-2xl border-b border-[#E5BA73] text-center mt-20'>{calisma.h2}</h1>
   <div className='h-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mx-auto gap-2 gap-y-10 mt-10 mb-10'>
 
-  <Link href='/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu'>
+  <CustomLinks href='/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-3 hover:scale-105 duration-300 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p1}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-  <Link href='/calisma-alanlarimiz/arabuluculuk'>
+  <CustomLinks href='/calisma-alanlarimiz/arabuluculuk' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-1 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p2}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-7 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p3}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/sozlesmeler-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/sozlesmeler-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-2 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p4}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/tuketici-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/tuketici-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-9 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p5}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/saglik-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/saglik-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-6 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p6}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/is-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/is-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-5 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p7}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>
-    </Link>
+    </CustomLinks>
 
-    <Link href='/calisma-alanlarimiz/icra-ve-iflas-hukuku'>
+    <CustomLinks href='/calisma-alanlarimiz/icra-ve-iflas-hukuku' lang={lang}>
     <div className='w-[300px] mx-auto'>
    <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-4 hover:scale-105 duration-200 ease-in">
      <h1 className="text-white text-lg shadow-sm">{calisma.p8}</h1>
       <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{calisma.button}</button>
     </div>
     </div>  
-    </Link>
+    </CustomLinks>
 
     </div>
     </>

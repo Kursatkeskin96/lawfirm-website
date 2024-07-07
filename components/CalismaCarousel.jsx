@@ -2,7 +2,7 @@
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import CustomLinks from './CustomLinks';
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
@@ -77,72 +77,80 @@ export default function CalismaCarousel({ params: { lang }}) {
           slidesPerView: 3,
           spaceBetween: 50,
         },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+        1444: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
       }}
     >
       <SwiperSlide>
-      <Link href={`/${lang}/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu`}>
+      <CustomLinks href={`/calisma-alanlarimiz/dava-takibi-ve-uyusmazlik-cozumu`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-3 hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm">{navigation.p1}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
 
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/arabuluculuk`}>
+    <CustomLinks href={`/calisma-alanlarimiz/arabuluculuk`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-1  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p2}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div> 
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/sigorta-ve-reasurans-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-7  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p3}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/sozlesmeler-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/sozlesmeler-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-2  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p4}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/tuketici-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/tuketici-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-9  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p5}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/saglik-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/saglik-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-6  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p6}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/is-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/is-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-5  hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p7}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
     <SwiperSlide>
-    <Link href={`/${lang}/calisma-alanlarimiz/icra-ve-iflas-hukuku`}>
+    <CustomLinks href={`/calisma-alanlarimiz/icra-ve-iflas-hukuku`} lang={lang}>
             <div className="bg-gray-200 h-72 rounded-md flex justify-center items-center flex-col bg-4 hover:scale-105 duration-300 ease-in">
                 <h1 className="text-white text-lg shadow-sm ">{navigation.p8}</h1>
                     <button className="bg-[#E5BA73] text-white rounded-md p-1 w-24 mt-2 hover:border hover:border-white hover:bg-[#eead45]">{navigation.button}</button>
             </div>
-        </Link>
+        </CustomLinks>
     </SwiperSlide>
   </Swiper>
   </div>
