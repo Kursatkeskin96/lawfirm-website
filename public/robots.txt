@@ -1,9 +1,6 @@
 # *
 User-agent: *
-Allow: /
-
-# Host
-Host: https://www.hukukozdemir.com/
+Disallow:
 
 # Sitemaps
 Sitemap: https://www.hukukozdemir.com/sitemap.xml
