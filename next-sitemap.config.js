@@ -17,16 +17,20 @@ const getAllPagesForSitemap = async () => {
     "yasal-uyari",
   ];
 
-  // Languages your site supports
-  const languages = ["en", "tr"];
+  // Generate paths for each page in Turkish (default language)
+  const defaultLanguagePaths = pages.map((page) => ({
+    loc: `/${page}`,
+    lastmod: new Date().toISOString(),
+  }));
 
-  // Generate paths for each language
-  const paths = languages.flatMap((lang) =>
-    pages.map((page) => ({
-      loc: `/${lang}/${page}`,
-      lastmod: new Date().toISOString(),
-    }))
-  );
+  // Generate paths for each page in English
+  const englishPaths = pages.map((page) => ({
+    loc: `/en/${page}`,
+    lastmod: new Date().toISOString(),
+  }));
+
+  // Combine both language paths
+  const paths = [...defaultLanguagePaths, ...englishPaths];
 
   return paths;
 };
