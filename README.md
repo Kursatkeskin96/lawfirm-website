@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ⚖️ Law Firm Website
 
-## Getting Started
+This project is a multi-language website built for a law firm in Turkey. It serves as a professional online presence, providing information about the firm’s working areas and includes a contact form for potential clients. The website is available in both English and Turkish, allowing it to cater to both local and international clients.
 
-First, run the development server:
+## 🌐 Live Project
+You can check out the live project here: [https://www.albionjourney.com/](https://www.hukukozdemir.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Key Features
+- **Multi-Language Support:** Available in both English and Turkish to serve a diverse range of clients.
+- **Working Areas Showcase:** Clearly presents the law firm's practice areas and services.
+- **Contact Form:** Potential clients can easily reach out to the firm through a user-friendly contact form.
+- **Responsive Design:** Works seamlessly on desktop and mobile.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+## 🧑‍💻 Tech Stack
+- HTML
+- CSS
+- JavaScript
+- React
+- Next JS
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📸 Screenshots
+![img](https://i.imgur.com/Ba8L3iA.png)
+![img2](https://i.imgur.com/AQS61ck.png)
+![img3](https://i.imgur.com/JpvCtXQ.png)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
