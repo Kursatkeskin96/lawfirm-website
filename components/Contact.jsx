@@ -83,8 +83,8 @@ export default function Contact({ params: { lang }}) {
           <div className='inline-flex items-center text-center text-xl mt-6 mb-2'>
             <GoLocation />
             <span className='ml-4'>{navigation.konum}</span>
-          </div>
-          <p className='text-[#E5BA73]'>Yeşilköy Mah. Atatürk Cad. EGS Business Park B2 Blok No: 12 K: Zemin D: 1 Bakırköy/İstanbul</p>
+          </div> 
+          <p className='text-[#E5BA73]'>Yenibosna Merkez Mah. Değirmenbahçe Cad. B Blok Istwest Konutları Istwest Konutları - Istanbul / Bahçelievler</p>
           
           <div className='inline-flex items-center text-center text-xl mt-6 mb-2'>
             <GrContact />
